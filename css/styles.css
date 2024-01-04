@@ -59,7 +59,8 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px
+  margin-right: 76px;
+  
 
   
 
@@ -73,6 +74,7 @@ header {
   list-style: none;
   display: flex;
   gap: 40px;
+  
 }
 
 .studio-link {
@@ -115,6 +117,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--section-heading-color);
   display: inline-block;
+  padding: 24px 0;
 }
 
 .contact-list:hover, .contact-list:focus {
@@ -587,6 +590,7 @@ justify-content: space-between;
 
 .div-item {
   margin-right: 120px;
+  
 }
 
 .social-media-footer {
@@ -609,7 +613,11 @@ justify-content: space-between;
   width: 40px;
   height: 40px;
   list-style-type: none;
+}
 
+
+.footer-text {
+  margin-top: 16px;
 }
 
 .social-media-footer-link {
